@@ -8,7 +8,7 @@ def go_progress(seconds):
     for i in tqdm(range(0, seconds * 2)):
         time.sleep(0.5)
 
-def progressor(key)
+def progressor(key):
         def wrapper(*args, **kwargs):
                 cache = dc.Cache('tmp')
                 whole_key = func.__name__
