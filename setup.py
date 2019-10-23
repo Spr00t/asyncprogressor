@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="asyncprogressor",
-    version="0.1.11",
+    version="0.2.1",
     author="Vlad Nadzuga",
     author_email="nadzuga0vlad@gmail.com    ",
     description="Package for showing progress on your function based on last run",
@@ -17,7 +17,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=[            # I get to this in a second
+    install_requires=[
         'tqdm',
         'diskcache',
     ],
