@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="asyncprogressor",
-    version="0.2.1",
+    version="0.2.2",
     author="Vlad Nadzuga",
     author_email="nadzuga0vlad@gmail.com    ",
     description="Package for showing progress on your function based on last run",

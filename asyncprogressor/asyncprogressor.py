@@ -19,7 +19,7 @@ def go_progress(seconds):
 def common(whole_key, func, *args, **kwargs):
         global done
         done = False
-        cache = dc.Cache('tmp')
+        cache = dc.Cache('/tmp/ywrnvgotba/') #random
         
         try:
                 (seconds, times) = cache[whole_key]
